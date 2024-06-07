@@ -1,0 +1,53 @@
+
+/* NavBar.js css */
+.navbar {
+  background-color: gray;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  position: sticky;
+  top: 0;
+}
+
+.navbar-container {
+  display:inline-flex;
+  align-items: flex-end;
+}
+
+.navbar-main {
+  text-decoration: none;
+  font-size: 3vw;
+}
+
+.navbar-list {
+  list-style-type: none;
+  display:flex;
+  align-items: flex-end;
+}
+
+.navbar-list li {
+  margin-right:10px;
+}
+
+.navbar-main:link, .navbar-main:visited, .navbar-main:hover, .navbar-main:active {
+  color:inherit
+}
+
+/* About.js css */
+
+#hello {
+  display:inline-flex;
+  margin-right:10px;
+  font-weight:bold;
+}
+
+#joke {
+  display:inline-flex;
+}
+
+.normal-link:visited, .normal-link:link, .normal-link:hover, .normal-link:active {
+  color:blue;
+  text-decoration:none;
+  font-size: 18px;
+  display:block
+}
